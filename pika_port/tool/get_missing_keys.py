@@ -7,7 +7,7 @@ def printHelp():
     """
     print 'Output redis missing keys that exists in pika:'
     print 'usage:'
-    print '  example: ./get_keys.py pika-host pika-port redis-host redis-port'
+    print '  example: ./get_missing_keys.py pika-host pika-port redis-host redis-port'
 
 def scanKey(_pikaClient, _redisClient):
     num = 0
